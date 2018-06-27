@@ -1,6 +1,6 @@
 let path = require('path');
 let ExtractTextPlugin = require('extract-text-webpack-plugin');
-module.exports = {
+const config = {
     entry: './src/app.js',
     output: {
         path: path.resolve(__dirname,"./dist"),
@@ -31,3 +31,5 @@ module.exports = {
         new ExtractTextPlugin("styles.css")
     ]
 }
+
+module.exports = config;
