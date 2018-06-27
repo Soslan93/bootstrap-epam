@@ -1,0 +1,52 @@
+.header {
+    font-family: Georgia;
+    padding-top: 36px;
+    padding-bottom: 105px;
+    background-color: #e8e8e8;
+    border-top: 5px solid rgb(68, 68, 68);
+    position: relative;
+    z-index: 1;
+}
+.container-1000 {
+    max-width: 1000px;
+}
+.logo-title span {
+    font-size: 36px;
+}
+.logo-title {
+    font-size: 26px;
+    padding-left: 5px;
+    color: #333333;
+}
+.rectangle {
+    background-color: rgb(153, 153, 153);
+    width: 1px;
+    height: 25px;
+    margin-left: 10.5px;
+    margin-top: 15px;
+}
+.logo-subtitle {
+    color: #999999;
+    margin: 0 0; 
+    font-size: 12px;
+    padding-left: 5px;
+    padding-top: 10px;
+    letter-spacing: 0.4px;
+}
+.menu-nav {
+    font-size: 12px;
+    padding-top: 18px;
+    padding-left: 11px;
+}
+.menu-nav__item {
+    padding-right: 30px;
+}
+.menu-nav__item:last-child {
+   padding-right: 0;
+}
+.menu-nav__link {
+    color: #666666;
+}
+.menu-nav__link:hover {
+    color: #e2494b;
+}
