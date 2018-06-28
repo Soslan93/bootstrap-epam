@@ -15,11 +15,14 @@
 .slider {
     display: flex;
     margin-left: 30px;
-    margin-bottom: 47px;
 }
 .card {
     margin-right: 20px;
     border: none;
+    width: 210px;
+}
+.slider-card {
+    margin-bottom: 47px; 
 }
 .card-img-top {
     border-top-left-radius: 0;
@@ -27,7 +30,10 @@
 }
 .services {
     margin-left: 30px;
-    margin-bottom: 31px;
+}
+.services-card {
+    width: 210px;
+    margin-bottom: 30px;
 }
 .services-title {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -42,14 +48,16 @@
     font-size: 13px;
     color: #999;
     letter-spacing: 0.5px;
-    line-height: 1.58;
-    padding-top: 4px;
+    line-height: 1.6;
+    padding-top: 6px;
 }
 .service-some {
     display: flex;
 }
 .latest-work {
     margin-left: 30px;
+}
+.latest-card {
     margin-bottom: 47px;
 }
 .latest-work__title {
@@ -82,7 +90,7 @@
     background-image: -ms-linear-gradient( 0deg, rgb(250,250,250) 0%, rgb(232,232,232) 50%, rgb(250,250,250) 100%);
     left: 40px;
     top: 788px;
-    width: 920px;
+    max-width: 920px;
     height: 2px;
     z-index: 92;
     margin-bottom: 48px;
